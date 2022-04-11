@@ -9,15 +9,15 @@ main{
 }
 
 header {
-    width: 100%;
+    width: 99%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10%;
     border-bottom: solid #ede300 1px;
     padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 header ul{
@@ -32,7 +32,7 @@ header li{
     padding: 5px;
     cursor: pointer;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 header li:hover{
@@ -52,7 +52,7 @@ header img{
     padding: 6px;
     cursor: pointer;
     color: white;
-    width: 100px;
+    width: 130px;
 }
 
 
@@ -65,21 +65,42 @@ header img:hover{
 
 .about{
     display: flex;
-    gap: 50px;
-    margin-top: 6%;
+    gap: 10%;
+    padding-top: 6%;
     padding-bottom: 6%;
-    align-items: stretch;
+    align-items: center;
     border-bottom: solid #ede300 1px;
+    justify-content: center;
 }
+
+
+.myBeautifulFace{
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    filter: grayscale(35%);
+    border: solid #ede300 0.1px;
+}
+
 
 .about-container{
     width: 60%;
-    margin-left: 5%;
 }
 
 .about-container img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.about-description{
+    font-size: 1.5em;
+}
+
+.about-description-name{
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: -10px;
 }
 
 .portuguese, .english{
@@ -94,14 +115,6 @@ header img:hover{
 }
 
 
-.myBeautifulFace{
-
-    width: 20%;
-    height: 20%;
-    border-radius: 10px;
-}
-
-
 .days-container{
     width: 100%;
     margin-top: 100px;
@@ -109,38 +122,54 @@ header img:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 30px;
 
 }
 
 
-.days-container a, button{
+.days-container a{
     width: 30%;
+    text-align: center;
     height: 50px;
     background-color: black;
     border-radius: 40px;
     color: white;
     font-weight: 900;
     font-variant-caps: all-small-caps;
-    font-size: larger;
+    font-size: 1.8em;
     border: solid white 1px;
+    text-decoration: none;
+    padding: 2px;
+    transition: 0.3s ease;
+    
+
+}
+
+.days-container a:hover{
+    color: black;
+    background: gainsboro;
+    opacity: 0.8;
 }
 
 .days{
-    margin-top: 7%;
+    margin-top: 5%;
     border-bottom: solid #ede300 1px;
-
+    padding: 30px;
 }
 
 .days h1{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 10px;
     text-align: center;
-    color: #ede300;
-    font-size: 2em;
-    margin-bottom: -30px;
+    color: white;
+    font-size: 2.4em;
+    border-bottom: #ede300 solid 1px;
 }
 
 .days h4{
     text-align: right;
+    font-size: 1.6em;
 }
 
 .acknowledgement{
