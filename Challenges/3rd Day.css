@@ -1,0 +1,7 @@
+.secondPage, .nextPage, .languageOptionsFront, .languageOptionsBack {
+    display: none;
+}
+
+.frontEndList, .backEndList{
+    list-style: none;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+main {
+    margin-top: 10px;
+    max-width: 450px;
+    border: 1.5px solid black;
+    padding-bottom: 30px;
+}
+
+.positive, .negative, .userLanguage {
+    display: none;
+}
+
+header{
+    padding: 30px;
+}
+
+header h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    max-width: 440px;
+}
+
+.personalQuestions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.userLanguage {
+    margin-bottom: 10px;
+}
+
+.userLanguage h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 430px;
+}
+
+.userLanguage h4{
+    margin-bottom: 15px;
+}
+
+.positive img{
+    height: 500px;
+    max-width: 430px
+    
+}
+
+.negative img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 400px
+
+}
+
+
+
