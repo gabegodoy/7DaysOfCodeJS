@@ -47,7 +47,7 @@ header a{
 }
 
 header img{
-    border: solid white 0.05px;
+    border: solid #ede300 0.05px;
     border-radius: 15px;
     padding: 6px;
     cursor: pointer;
