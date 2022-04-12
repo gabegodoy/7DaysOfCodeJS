@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7days Of Code | 3rd Day</title>
+    <script src="3rd Day.js"></script>
+    <link rel="stylesheet" href="3rd Day.css">
+</head>
+<body>
+
+    <main>
+
+        <header>
+            <div><a href="https://7daysofcode.io/"><img src="../IMAGES/desafio-logo.svg" alt="LOGO DESAFIO"></a></div>
+            <div>
+                <ul>
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href=""><li>About</li></a>
+                    <a href=""><li>Contact</li></a>
+                    <a href="https://github.com/gabegodoy"><li>GitHub</li></a>
+                </ul>
+            </div>
+        </header>
+
+        <section class="container">
+
+            <section class="title">
+                <a href="3rd Day.html"><h1>Dev choices</h1></a>
+            </section>
+            
+            <section class="firstPage">
+                <div class="userName">
+                    <p><strong>Hello World!</strong>  What's your name?</p>
+                    <input placeholder="*Optional" class="userName-input" type="text" name="" id="">
+                </div>
+
+                <div class="studyField">
+                    <p>Would you like to became a <button class="studyField-back" onclick="backEnd ()">back-end</button> or <button class="studyField-back" onclick="frontEnd()">front-end</button> developer?</p>
+                </div>
+
+                <div>
+                    <!-- Create programming language options, according to the selected button -->
+                </div>
+            </section>
+
+            <section class="secondPage">
+                <div>
+                    <div class="secondPageHeader">
+                        <h3>Nice <strong class="printName"></strong>! You're going to be an amazing <strong class="studyField-h3"></strong> developer!</h3>
+                        <p>I believe you are aleady studying <strong class="lang1"></strong> and <strong class="lang2"></strong>, am I right?</p>
+                    </div>
+
+                    <h4>What do you think it is the best for you?</h4>
+                    <select class="futureOptions" name="" id="">
+                        <option value="none"></option>
+                        <option value="continue">Continue to study on my actual field!</option>
+                        <option value="fullstack">Study different fields and became a Fullstack developer</option>
+                    </select>
+                    <button onclick="newTecnologies()">OK!</button>
+                    <div class="outputMessage"></div>
+                </div>
+                <button onclick="nextPage()" class="nextPage">Show me!</button>
+            </section>
+
+            <section class="thirdPage">
+                <div class="languageOptionsFront">
+                    <h4 class="frontEndTitle">The Best 10 Frontend Programming Languages:</h4>
+                    <ul class="frontEndList">
+                        <a href="https://www.alura.com.br/formacao-html-e-css"><li class="languageOptionsFront-item">HTML</li></a>
+                        <a href="https://www.alura.com.br/formacao-html-e-css"><li class="languageOptionsFront-item">CSS</li></a>
+                        <a href="https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web"><li class="languageOptionsFront-item">Javascript</li></a>
+                        <a href="https://www.alura.com.br/cursos-online-front-end/reactjs"><li class="languageOptionsFront-item">React</li></a>
+                        <a href="https://www.alura.com.br/formacao-vuejs3"><li class="languageOptionsFront-item">Vue</li></a>
+                        <a href="https://www.alura.com.br/formacao-typescript"><li class="languageOptionsFront-item">TypeScript</li></a>
+                        <a href="https://www.alura.com.br/busca?query=elm"><li class="languageOptionsFront-item">Elm</li></a>
+                        <a href="https://www.alura.com.br/curso-online-jquery-a-biblioteca-do-mercado"><li class="languageOptionsFront-item">JQuery</li></a>
+                        <a href="https://www.alura.com.br/formacao-angular"><li class="languageOptionsFront-item">Angular</li></a>
+                        <a href="https://www.alura.com.br/curso-online-swift-desenvolvimento-ios"><li class="languageOptionsFront-item">Swift</li></a>
+                    </ul>
+                    <p>*To access the course, click on the language.</p>
+                    <div class="otherLanguages">
+                        <input placeholder="Others..." id="langInputFront" type="text" class="">
+                        <a class="btnLinkFront" href=""><button class="btn" onclick="searchFront ()">Search</button></a>
+                    </div>
+                </div>
+
+
+                <div class="languageOptionsBack">
+                    <h4 class="frontEndTitle">The Best 10 Backend Programming Languages:</h4>
+                    <ul class="backEndList">
+                        <a href="https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web"><li class="languageOptionsBack-item">JavaScript</li></a>
+                        <a href="https://www.alura.com.br/formacao-kotlin"><li class="languageOptionsBack-item">Kotlin</li></a>
+                        <a href="https://www.alura.com.br/busca?query=Scala"><li class="languageOptionsBack-item">Scala</li></a>
+                        <a href="https://www.alura.com.br/busca?query=Perl"><li class="languageOptionsBack-item">Perl</li></a>
+                        <a href="https://www.alura.com.br/formacao-linguagem-c-plus-plus"><li class="languageOptionsBack-item">C++</li></a>
+                        <a href="https://www.alura.com.br/formacao-c-sharp-orientacao-objetos"><li class="languageOptionsBack-item">C#</li></a>
+                        <a href="https://www.alura.com.br/formacao-certificacao-java"><li class="languageOptionsBack-item">Java</li></a>
+                        <a href="https://www.alura.com.br/formacao-Python-linguagem"><li class="languageOptionsBack-item">Python</li></a>
+                        <a href="https://www.alura.com.br/cursos-online-programacao/ruby"><li class="languageOptionsBack-item">Ruby</li></a>
+                        <a href="https://www.alura.com.br/formacao-desenvolvedor-php"><li class="languageOptionsBack-item">PHP</li></a>
+                    </ul>         
+                    <p>*To access the course, click on the language.</p>
+                    <div class="otherLanguages">
+                        <input placeholder="Others..." id="langInputBack" type="text" class="">
+                        <a class="btnLinkBack" href=""><button class="btn" onclick="searchBack ()">Search</button></a>
+                    </div>
+                </div>
+                
+            </section>
+            
+        </section>
+
+        <footer>
+            <div class="acknowledgement"><p>DEVELOPED BY <a href="https://www.linkedin.com/in/gabecgodoy/">GABRIEL GODOY</a></p></div>
+        </footer>
+
+    </main>
+
+</body>
+</html>

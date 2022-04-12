@@ -1,0 +1,193 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* DEFAUT TO JS */
+
+.secondPage, .nextPage, .languageOptionsFront, .languageOptionsBack {
+    display: none;
+}
+
+.frontEndList, .backEndList{
+    list-style: none;
+}
+
+/*  -----  */
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+main button, input, select{
+    border: solid #ede300 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* EXCEPTIONS */ 
+
+.studyField-back{
+    border: solid white 0.5px;
+    border-radius: 10px;
+
+}
+
+
+/* EXCEPTIONS */ 
+
+.container{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border: solid #ede300 1px;
+    margin-top: 8%;
+    max-width: 450px;
+    border-radius: 20px;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title h1{
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border-bottom: 1px solid #ede300;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.nextPage{
+    margin: 0 auto;
+}
+
+.backEndList a, .frontEndList a{
+    text-decoration: none;
+}
+
+.languageOptionsBack-item, .languageOptionsFront-item{
+    text-align: left;
+    margin-left: 5%;
+    list-style: inside;
+    margin-bottom: 5px;
+}
+
+.otherLanguages{
+    margin-top: 20px;
+}
+
+.outputMessage{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.outputMessage p{
+    margin-bottom: 10px;
+}
+
+
+/* ***************************** START ***************************** */
+/* ********** PROJECT PATTER - HEADER / FOOTER / SCROLL ********** */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25%;
+    border-bottom: solid #ede300 1px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+    
+}
+
+header li{
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.6em;
+}
+
+header li:hover{
+    -webkit-box-shadow:0px 0px 20px 6px rgba(171,255,46,0.64);
+    -moz-box-shadow: 0px 0px 20px 6px rgba(171,255,46,0.64);   
+    box-shadow: 0px 0px 20px 6px rgba(171,255,46,0.64);
+    border-radius: 20px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header img{
+    border: solid #ede300 0.05px;
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+    width: 130px;
+}
+
+
+
+header img:hover{
+    -webkit-box-shadow:0px 0px 26px 7px rgba(171,255,46,0.64);
+    -moz-box-shadow: 0px 0px 26px 7px rgba(171,255,46,0.64);   
+    box-shadow: 0px 0px 26px 7px rgba(171,255,46,0.64);
+}
+
+.acknowledgement{
+    position:absolute;
+	bottom:0;
+	width:90%;
+    border-top: solid #ede300 0.5px;
+        
+}
+
+.acknowledgement a{
+    text-decoration: none;
+    color: #ede300;
+}
+
+.acknowledgement p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 15px; 
+}
+  
+body::-webkit-scrollbar-track {
+    background: #ede300; 
+    width: 10px;
+}
+  
+ body::-webkit-scrollbar-thumb {
+    background-color: black;   
+    border-radius: 30px;       
+    border: 1px solid #ede300;
+}
+
+
+
+/* ****************************** END ****************************** */
+/* ********** PROJECT PATTER - HEADER / FOOTER / SCROLL ********** */
