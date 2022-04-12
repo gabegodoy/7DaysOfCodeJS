@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7days Of Code | 2nd Day</title>
+    <script src="2nd Day.js"></script>
+    <link rel="stylesheet" href="2nd Day.css">
+</head>
+<body>
+
+    <main>
+
+        <header>
+            <div><a href="https://7daysofcode.io/"><img src="../IMAGES/desafio-logo.svg" alt="LOGO DESAFIO"></a></div>
+            <div>
+                <ul>
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href=""><li>About</li></a>
+                    <a href=""><li>Contact</li></a>
+                    <a href="https://github.com/gabegodoy"><li>GitHub</li></a>
+                </ul>
+            </div>
+        </header>
+    
+
+        <section class="content-container">
+
+            <section class="title"><h1>Desafio Alura - Variáveis</h1></section>
+            
+            <section class="personalQuestions" id="personalQuestions">
+                <div class="personalQuestions-name">
+                    <h4>What's your name?</h4>
+                    <input type="text" name="userName" id="personalQuestions-name-input" placeholder="Ex: Gabriel Godoy">
+                </div>
+                <div class="personalQuestions-age">
+                    <h4>How old are you?</h4>
+                    <input type="number" name="userAge" id="personalQuestions-age-input" placeholder="Ex: 24">
+                </div>
+                <div class="personalQuestions-language">
+                    <h4>Which programming language are you studying?</h4>
+                    <input type="text" name="userLanguage" id="personalQuestions-language-input" placeholder="Ex: Javascript">
+                </div>
+                
+                <button onclick="validate()" id="personalQuestions-button">OK!</button>
+            </section>
+
+            <section class="userLanguage" id="userLanguage">
+                <h2 class="personalFeedback" id="personalFeedback"></h2>
+                <h4 id="personalFeedback-question"></h4><input oninput="feedback()" type="text" name="personalFeedback-question-input" id="personalFeedback-question-input" placeholder="Y or N" size="3">
+                
+            </section>
+
+            <section class="positive" id="positive">
+                <img src="https://i.pinimg.com/originals/35/ee/ae/35eeae51a79c71d208ce0120704dad3a.png" alt="Master Yoda Happy">
+                <h2>SEHR GUT!</h2>
+                <h4>If studying hard you continue, great success you might have!</h4>
+            </section>
+
+            <section class="negative" id="negative">
+                <img src="https://www.hipsters.tech/wp-content/uploads/2017/08/alurja-v2.png" alt="Alura Logo">
+                <h2>OH NEIN!</h2>
+                <h4>Lucky you, I've got a great tip! <br>Did you know that <a href="https://www.alura.com.br/?gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb0BeH-ykkXDHm7chGHyq260_-Nv2RC0AqHs3L7KBnCaI7ToZfcqAvsaAiZWEALw_wcB">Alura</a> has hundreds of courses in different programming languages? <br><br><br></h4>
+                <a class="aluraBtn" href="https://www.alura.com.br/?gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb0BeH-ykkXDHm7chGHyq260_-Nv2RC0AqHs3L7KBnCaI7ToZfcqAvsaAiZWEALw_wcB">Check it out!</a>
+                
+            </section>
+        </section>
+
+        <footer>
+            <div class="acknowledgement"><p>DEVELOPED BY <a href="https://www.linkedin.com/in/gabecgodoy/">GABRIEL GODOY</a></p></div>
+        </footer>
+        
+    </main> 
+    
+
+
+
+</body>
+</html>
